@@ -29,13 +29,27 @@
 .pill-nav-link {
 	flex: 0 0 auto;
 	padding: 0.5rem 0.95rem;
+	min-height: 2.1rem;
 	border-radius: 999px;
 	font-size: 0.9rem;
 	font-weight: 600;
 	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	color: #dcecff;
 	border: 1px solid transparent;
 	transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.pill-nav-icon-link {
+	width: 2.1rem;
+	padding: 0;
+}
+
+.pill-nav-icon-link svg {
+	width: 1rem;
+	height: 1rem;
 }
 
 .pill-nav-link:hover {
@@ -124,6 +138,11 @@
 	.pill-nav-link {
 		padding: 0.48rem 0.82rem;
 		font-size: 0.84rem;
+	}
+
+	.pill-nav-icon-link {
+		width: 2rem;
+		padding: 0;
 	}
 
 	.overlay {
