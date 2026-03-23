@@ -28,8 +28,7 @@ function PCBModel({ scrollY }: PcbDisplayProps) {
 
   useFrame(() => {
     const targetYRotation = Math.PI + scrollY * 0.005
-    scene.rotation.y = targetYRotation
-    scene.rotation.x = -0.25
+    Object.assign(scene.rotation, { y: targetYRotation, x: -0.25 })
   })
 
   return <primitive object={scene} scale={fittedScale} position={[0, 0, 0]} />
