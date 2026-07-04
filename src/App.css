@@ -45,9 +45,11 @@
 .pill-nav-icon-link {
 	width: 2.1rem;
 	padding: 0;
+	line-height: 0;
 }
 
 .pill-nav-icon-link svg {
+	display: block;
 	width: 1rem;
 	height: 1rem;
 }
@@ -133,6 +135,7 @@
 
 	.pill-nav-track {
 		width: 100%;
+		justify-content: center;
 	}
 
 	.pill-nav-link {
@@ -143,6 +146,7 @@
 	.pill-nav-icon-link {
 		width: 2rem;
 		padding: 0;
+		line-height: 0;
 	}
 
 	.overlay {

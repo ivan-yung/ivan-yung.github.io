@@ -4,10 +4,21 @@ import './AboutMe.css'
 
 const experiences = [
   {
+    company: 'Sinclair Inc',
+    companyUrl: 'https://sbgi.net/',
+    position: 'Associate Development Engineer',
+    dates: 'Jun 2026 - Present',
+    location: 'Seattle, WA',
+    accomplishments: [
+      'More to come ...',
+    ],
+
+  },
+  {
     company: 'CodeLab - Google',
     companyUrl: 'https://codelabdavis.com/',
     position: 'Contract Software Engineer - Google Careers Platform',
-    dates: 'Jan 2026 - Present',
+    dates: 'Jan 2026 - Jun 2026',
     location: 'Davis, CA',
     accomplishments: [
       'Selected for a 6-month software engineering contract through CodeLab supporting feature development for the Google Careers platform.',

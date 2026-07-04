@@ -8,6 +8,9 @@ import psoc6png from '../assets/psoc6.png'
 import b3Webm from '../assets/optimized-b3.webm'
 import b3Png from '../assets/b3.png'
 import freshDetectPng from '../assets/freshDetect.png'
+import sys_array from '../assets/sys_array.png'
+import KnockLockPNG from '../assets/KnockLockPNG.png'
+import KnockLockwebm from '../assets/KnockLock.webm'
 import './Projects.css'
 
 const projects = [
@@ -57,6 +60,26 @@ const projects = [
     imageSrc:
       b3Png,
     videoSrc: b3Webm,
+  },
+  {
+    title: 'Matrix Multiplication Hardware Accelerator',
+    description:
+      'Matrix Multplication in hardware (verilog), for efficiently computing matrix products on an FPGA DE-10 Lite board. This efficient architcture implimenting a 8x8 systollic array can compute a product in 75% less clock cycles than a modern CPU',
+    tech: ['Verilog', 'FPGA'],
+    repoUrl: 'https://github.com/ivan-yung/MatrixMult',
+    imageSrc:
+      sys_array,
+    mediaMode: 'image' as const,
+  },
+  {
+    title: 'Knock Lock',
+    description:
+      'A 2 FA home security system leveraging rythmic knocking for authentification, along with a combination keypad.',
+    tech: ['Altium', 'Jlab PCB', 'Serial Communication Protocols', 'C', 'Power Electronics', 'I2C', 'UART', 'BLE', 'PSOC 6'],
+    imageSrc:
+      KnockLockPNG,
+    videoSrc: KnockLockwebm,
+    repoUrl: 'https://github.com/ivan-yung/EEC136AB-spring2026-India-KnockLock',
   },
 ]
 
