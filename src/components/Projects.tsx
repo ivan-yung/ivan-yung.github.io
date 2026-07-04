@@ -35,6 +35,16 @@ const projects = [
     repoUrl: 'https://github.com/ivan-yung/logi-sim',
   },
   {
+    title: 'Knock Lock',
+    description:
+      'A 2 FA home security system leveraging rythmic knocking for authentification, along with a combination keypad. This design features a custom PCB designed in altium powered by PSOC 6, that leverages a MOSFET transistor that kills motor current draw in sleep modes allowing the system to achieve years of battery life with a 7.5V supply of 5 AA batteries. Along with PSOC6 BLE for wireless app integration.',
+    tech: ['Altium', 'Jlab PCB', 'Serial Communication Protocols', 'C', 'Power Electronics', 'I2C', 'UART', 'BLE', 'PSOC 6'],
+    imageSrc:
+      KnockLockPNG,
+    videoSrc: KnockLockwebm,
+    repoUrl: 'https://github.com/ivan-yung/EEC136AB-spring2026-India-KnockLock',
+  },
+  {
     title: 'Fresh Detect',
     description:
       'ML powered meat freshness detection app. A fine tuned CNN in an h5 file ran by a flask server predicts the freshness of meat on a gradient from fresh to spoiled.',
@@ -70,16 +80,6 @@ const projects = [
     imageSrc:
       sys_array,
     mediaMode: 'image' as const,
-  },
-  {
-    title: 'Knock Lock',
-    description:
-      'A 2 FA home security system leveraging rythmic knocking for authentification, along with a combination keypad.',
-    tech: ['Altium', 'Jlab PCB', 'Serial Communication Protocols', 'C', 'Power Electronics', 'I2C', 'UART', 'BLE', 'PSOC 6'],
-    imageSrc:
-      KnockLockPNG,
-    videoSrc: KnockLockwebm,
-    repoUrl: 'https://github.com/ivan-yung/EEC136AB-spring2026-India-KnockLock',
   },
 ]
 
